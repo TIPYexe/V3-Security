@@ -10,6 +10,7 @@ nav{
     top: 0;
     left: 0;
     right: 0;
+    padding-bottom: 0.5em;
 }
 
 .for-white-space{
@@ -134,4 +135,50 @@ nav{
     margin-right: 0;
     margin-bottom: auto;
     height: 4.2vw;
+}
+
+/* HEADERUL GATA. NU MAI MODIFICA NIMIC DE SUS */
+
+.slide-show{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.overlay-box{
+    display: flex;
+    position: absolute;
+    margin-top: 10em;
+    margin-left: 23em;
+    width: 35em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: -0.6em;
+    padding-bottom: 2em;
+    justify-content: space-between;
+    align-content: center;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+    background: rgba(0, 186, 233, 0.5);
+}
+
+.text-box h1{
+    font-size: 3.5em;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 900;
+    line-height: 0.9em;
+    color: white;
+}
+
+.text-box p{
+    font-size: 1em;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    color: white;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.slide-show img{
+    width: 100%;
 }
