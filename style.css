@@ -1,3 +1,20 @@
+.center{
+    margin: 0;
+    position: relative;
+    height: 50%;
+}
+
+.button-template{
+    padding: 1vw 1.7vw 1vw 1.7vw;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    background-color: transparent;
+    border-width: 0.17vw;
+    border-color: white;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
 main{
     position: absolute;
     top: 0;
@@ -10,7 +27,6 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-    padding-bottom: 0.5em;
 }
 
 .for-white-space{
@@ -19,6 +35,7 @@ nav{
     width: 60%;
     justify-content: space-between;
     align-content: center;
+    /*padding-bottom: 0.5vw;*/
 }
 
 #v3_logo{
@@ -41,12 +58,6 @@ nav{
     height: 50%;
     justify-content: end;
     /*background-color: red;*/
-}
-
-.center{
-    margin: 0;
-    position: relative;
-    height: 50%;
 }
 
 #btn-contact button:hover {
@@ -81,7 +92,7 @@ nav{
     position: relative;
     float: left;
     padding-top: 0.23vw;
-    padding-right: 0.3em;
+    padding-right: 0.3vw;
     height: 0.9vw;
 }
 
@@ -155,32 +166,32 @@ nav{
 /* HEADERUL GATA. NU MAI MODIFICA NIMIC DE SUS */
 
 .slide-show{
-    /*top: 0;*/
-    /*right: 0;*/
-    /*left: 0;*/
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
 }
 
 .overlay-box{
     display: flex;
     position: absolute;
-    margin-top: 10em;
-    margin-left: 23em;
-    width: 35em;
-    padding-right: 3em;
-    padding-left: 3em;
-    padding-top: -0.6em;
-    padding-bottom: 2.7em;
-    justify-content: space-between;
-    align-content: center;
-    border-top-left-radius: 5em;
-    border-bottom-right-radius: 5em;
+    margin-top: 9vw;
+    margin-left: 19vw;
+    width: 28vw;
+    height: 19vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 2.7vw;
+    border-top-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
     background: rgba(37, 191, 236, 0.71);
 }
 
 .text-box h1{
     padding: 0;
     margin-bottom: 0;
-    font-size: 3.5em;
+    font-size: 3vw;
     font-family: "Maven Pro", sans-serif;
     font-weight: 900;
     line-height: 0.9em;
@@ -188,20 +199,20 @@ nav{
 }
 
 .text-box p{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 1.2em;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.2vw;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
     color: white;
-    line-height: 1.5em;
+    line-height: 1.2em;
     text-align: left;
 }
 
 .text-box a button{
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.1vw;
     color: white;
     text-decoration: none;
 }
@@ -212,6 +223,7 @@ nav{
 }
 
 .slide-show img{
+    display: block;
     width: 100%;
 }
 
@@ -219,14 +231,159 @@ nav{
     cursor: pointer;
 }
 
-.button-template{
-    padding: 1em 1.7em 1em 1.7em;
-    border-top-left-radius: 2em;
-    border-bottom-right-radius: 2em;
-    background-color: transparent;
-    border-width: 0.17em;
-    border-color: white;
-    border-style: solid;
-    box-sizing: border-box;
+.three-step{
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 35vw;
+    width: 5vw;
 }
 
+.slide-position{
+    aspect-ratio: 1;
+    width: 1vw;
+    margin: 0.2vw;
+    border-width: 0.15vw;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border-radius: 0.15vw;
+}
+
+.slide-position:hover{
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #00bae9;
+}
+
+.shorts{
+    display: flex;
+    margin: 1vw auto;
+    width: 60%;
+    text-align: center;
+}
+
+.shorts span{
+    width: 20vw;
+}
+
+.shorts img{
+    height: 5.5vw;
+}
+
+.shorts h2{
+    margin: 0;
+    padding-top: 0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 3vw;
+    font-size: 1vw;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 700;
+    color: #25bfec;
+}
+
+.shorts p{
+    padding-bottom: 0.5vw;
+    width: 16vw;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #848484;
+    display: inline-block;
+}
+
+.shorts a{
+    text-decoration: none;
+}
+
+.shorts button{
+    display: block;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    font-size: 0.8vw;
+    color: #848484;
+    border-color: #848484;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    margin: 0 auto;
+}
+
+.shorts button:hover{
+    cursor: pointer;
+}
+
+.about-us h1{
+    margin: 2vw auto 1.5vw auto;
+    width: 60%;
+    text-align: center;
+    border-bottom: solid;
+    border-color: #9a9999;
+    border-width: 0.1vw;
+    line-height: 0.2vw;
+}
+
+.about-us h1>span{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    background:#fff;
+    padding:0 10px;
+}
+
+.about-us article{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #848484;
+    padding-bottom: 0.7vw;
+}
+
+
+/* GATA ABOUT US */
+
+
+.out-clients-say hr{
+    color: #9a9999;
+    margin: -2px;
+    padding: 0;
+}
+
+.clients-title{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    background-color: #00bae9;
+    border-bottom-right-radius: 5vw;
+    height: 4vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+}
+
+.clients-title p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    /*padding-right: 2.5vw;*/
+    margin-left: 18vw;
+    color: white;
+}
+
+/*.out-clients-say{*/
+/*    grid-template-rows: 50% 50%;*/
+/*}*/
+
+.comentarii{
+    position: relative;
+    top: 50%;
+    align-content: center;
+    justify-content: space-around;
+}
