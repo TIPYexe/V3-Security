@@ -5,11 +5,11 @@
 }
 
 .button-template{
-    padding: 1vw 1.7vw 1vw 1.7vw;
-    border-top-left-radius: 2vw;
-    border-bottom-right-radius: 2vw;
+    padding: 1vw 1.7vw 1vw 1.7em;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
     background-color: transparent;
-    border-width: 0.17vw;
+    border-width: 0.17em;
     border-color: white;
     border-style: solid;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ nav{
     width: 60%;
     justify-content: space-between;
     align-content: center;
-    padding-bottom: 0.5vw;
+    padding-bottom: 0.5em;
 }
 
 #v3_logo{
@@ -44,7 +44,7 @@ nav{
     margin-top: auto;
     margin-left: 0;
     margin-bottom: auto;
-    height: 2.9vw;
+    height: 2.9em;
 }
 
 .contact-main-menu{
@@ -66,10 +66,10 @@ nav{
 
 #btn-contact{
     background-color: #efefef;
-    width: 12vw;
+    width: 12em;
     height: 100%;
-    padding-left: 1.3vw;
-    margin-right: -3.5vw;
+    padding-left: 1.3em;
+    margin-right: -3.5em;
     border-bottom-left-radius: 3em;
     text-decoration: none;
 }
@@ -81,7 +81,7 @@ nav{
     margin: 0;
     border: none;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 700;
     color: #737373;
@@ -91,15 +91,15 @@ nav{
 #btn-contact img{
     position: relative;
     float: left;
-    padding-top: 0.23vw;
-    padding-right: 0.3vw;
-    height: 0.9vw;
+    padding-top: 0.23em;
+    padding-right: 0.3em;
+    height: 0.9em;
 }
 
 #btn-get-quote{
-    font-size: 1vw;
+    font-size: 1em;
     background-color: #00bae9;
-    width: 13vw;
+    width: 13em;
     border: none;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
@@ -116,7 +116,7 @@ nav{
     display: inline-block;
     height: 50%;
     width: 100%;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
 }
@@ -148,7 +148,7 @@ nav{
 }
 
 .main-menu span{
-    font-size: 1vw;
+    font-size: 1em;
     padding-right: 0.5%;
     padding-left: 0.5%;
     display: inline-block;
@@ -160,7 +160,7 @@ nav{
     margin-top: auto;
     margin-right: 0;
     margin-bottom: auto;
-    height: 4.2vw;
+    height: 4.2em;
 }
 
 /* HEADERUL GATA. NU MAI MODIFICA NIMIC DE SUS */
@@ -176,22 +176,22 @@ nav{
 .overlay-box{
     display: flex;
     position: absolute;
-    margin-top: 9vw;
-    margin-left: 19vw;
-    width: 28vw;
-    height: 19vw;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    padding-bottom: 2.7vw;
-    border-top-left-radius: 5vw;
-    border-bottom-right-radius: 5vw;
+    margin-top: 9em;
+    margin-left: 19em;
+    width: 28em;
+    height: 19em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 2.7em;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 5em;
     background: rgba(37, 191, 236, 0.71);
 }
 
 .text-box h1{
     padding: 0;
     margin-bottom: 0;
-    font-size: 3vw;
+    font-size: 3em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 900;
     line-height: 0.9em;
@@ -199,9 +199,9 @@ nav{
 }
 
 .text-box p{
-    margin-top: 1vw;
-    margin-bottom: 1.5vw;
-    font-size: 1.2vw;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
     color: white;
@@ -212,7 +212,7 @@ nav{
 .text-box a button{
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     color: white;
     text-decoration: none;
 }
@@ -237,19 +237,19 @@ nav{
     right:0;
     margin-left: auto;
     margin-right: auto;
-    top: 35vw;
-    width: 5vw;
+    top: 35em;
+    width: 5em;
 }
 
 .slide-position{
     aspect-ratio: 1;
-    width: 1vw;
-    margin: 0.2vw;
-    border-width: 0.15vw;
+    width: 1em;
+    margin: 0.2em;
+    border-width: 0.15em;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.6);
     background-color: transparent;
-    border-radius: 0.15vw;
+    border-radius: 0.15em;
 }
 
 .slide-position:hover{
@@ -265,33 +265,33 @@ nav{
 }
 
 .shorts span{
-    width: 20vw;
+    width: 20em;
 }
 
 .shorts img{
-    height: 5.5vw;
+    height: 5.5em;
 }
 
 .shorts h2{
     margin: 0;
-    padding-top: 0.7vw;
+    padding-top: 0.7em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 3vw;
-    font-size: 1vw;
+    height: 3em;
+    font-size: 1em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 700;
     color: #25bfec;
 }
 
 .shorts p{
-    padding-bottom: 0.5vw;
-    width: 16vw;
+    padding-bottom: 0.5em;
+    width: 16em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1em;
     color: #848484;
     display: inline-block;
 }
@@ -304,10 +304,10 @@ nav{
     display: block;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 0.8vw;
+    font-size: 0.8em;
     color: #848484;
     border-color: #848484;
-    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    padding: 0.5vw 1.5vw 0.5vw 1.5em;
     margin: 0 auto;
 }
 
@@ -322,13 +322,13 @@ nav{
     text-align: center;
     border-bottom: solid;
     border-color: #9a9999;
-    border-width: 0.1vw;
-    line-height: 0.2vw;
+    border-width: 0.1em;
+    line-height: 0.2em;
 }
 
 .about-us h1>span{
     font-family: "Maven Pro", sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     font-weight: 700;
     background:#fff;
     padding:0 10px;
@@ -339,10 +339,10 @@ nav{
     margin: 0 auto;
     width: 60%;
     font-family: "Maven Pro", sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 500;
     color: #848484;
-    padding-bottom: 0.7vw;
+    padding-bottom: 0.7em;
 }
 
 
@@ -361,9 +361,9 @@ nav{
     margin: 0;
     text-align: right;
     background-color: #00bae9;
-    border-bottom-right-radius: 5vw;
-    height: 4vw;
-    width: 40vw;
+    border-bottom-right-radius: 5em;
+    height: 4em;
+    width: 40em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,8 +372,8 @@ nav{
 .clients-title p{
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 2vw;
-    /*padding-right: 2.5vw;*/
+    font-size: 2em;
+    /*padding-right: 2.5em;*/
     margin-left: 40%;
     color: white;
 }
@@ -383,44 +383,48 @@ nav{
 .column .comment p{
     font-style: italic;
     text-align: center;
-    margin-left: 2vw;
-    margin-right: 3vw;
+    margin-left: 2em;
+    margin-right: 3em;
 }
 
 .comment-bg{
-    margin-bottom: -5.9vw;
+    margin-bottom: -5.9em;
 }
 
 .profile-pic{
+    /*margin-left: 0;*/
     display: inline-block;
     background-repeat: no-repeat;
-    border-bottom-right-radius: 0.5vw;
-    border-top-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
     object-fit: contain;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 .profile-pic:nth-of-type(1){
     background-image: url("vectors/alice_knigh.png");
-    background-position-x: -2vw;
-    background-position-y: -0.5vw;
+    background-position-x: -2em;
+    background-position-y: -0.5em;
 }
 
 .profile-pic:nth-of-type(2){
     background-image: url("vectors/john_smith.png");
-    background-position-x: -2vw;
-    background-position-y: -0.5vw;
+    background-position-x: -2em;
+    background-position-y: -0.5em;
 }
 
 .rating{
-    display: inline;
-    margin-top: auto;
-    margin-left: 0;
-    margin-bottom: auto;
-    aspect-ratio: ;
-    height: 2vw;
-    width: content-box;
+    display: flex;
+    justify-content: end;
+    /*margin-top: auto;*/
+    /*margin-right: 0;*/
+    /*margin-bottom: auto;*/
+    /*display: block;*/
+    max-width:6em;
+    max-height:3em;
+    width: auto;
+    height: auto;
 }
 
 /* COLOANA STANGA */
@@ -432,17 +436,17 @@ nav{
 }
 
 .column:nth-child(1){
-    padding-top: 1.5vw;
+    padding-top: 1.5em;
     flex: 50%;
 }
 
 .column:nth-child(2){
-    margin-top: -2vw;
+    margin-top: -2em;
     flex: 50%;
 }
 
 .column img{
-    width: 97%;
+    width: 95%;
 }
 
 .column iframe{
@@ -452,7 +456,7 @@ nav{
 .column h2{
     font-family: "Maven Pro", sans-serif;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 1.2em;
     color: #848484;
     margin: 0;
     padding: 0.6vw 0 0.6vw 0;
@@ -461,10 +465,10 @@ nav{
 .column p{
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1em;
     color: #848484;
     margin: 0;
-    padding-bottom: 2vw;
+    padding-bottom: 2em;
 }
 
 /* COLOANA DREAPTA */
