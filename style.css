@@ -35,7 +35,7 @@ nav{
     width: 60%;
     justify-content: space-between;
     align-content: center;
-    /*padding-bottom: 0.5vw;*/
+    padding-bottom: 0.5vw;
 }
 
 #v3_logo{
@@ -316,6 +316,7 @@ nav{
 }
 
 .about-us h1{
+    user-select: none;
     margin: 2vw auto 1.5vw auto;
     width: 60%;
     text-align: center;
@@ -355,6 +356,7 @@ nav{
 }
 
 .clients-title{
+    user-select: none;
     padding: 0;
     margin: 0;
     text-align: right;
@@ -365,7 +367,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*text-align: center;*/
 }
 
 .clients-title p{
@@ -373,17 +374,97 @@ nav{
     font-weight: 500;
     font-size: 2vw;
     /*padding-right: 2.5vw;*/
-    margin-left: 18vw;
+    margin-left: 40%;
     color: white;
 }
 
-/*.out-clients-say{*/
-/*    grid-template-rows: 50% 50%;*/
-/*}*/
+/* HEADER OUR CLIENTS SAY */
 
-.comentarii{
-    position: relative;
-    top: 50%;
-    align-content: center;
-    justify-content: space-around;
+.column .comment p{
+    font-style: italic;
+    text-align: center;
+    margin-left: 2vw;
+    margin-right: 3vw;
 }
+
+.comment-bg{
+    margin-bottom: -5.9vw;
+}
+
+.profile-pic{
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    object-fit: contain;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.profile-pic:nth-of-type(1){
+    background-image: url("vectors/alice_knigh.png");
+    background-position-x: -2vw;
+    background-position-y: -0.5vw;
+}
+
+.profile-pic:nth-of-type(2){
+    background-image: url("vectors/john_smith.png");
+    background-position-x: -2vw;
+    background-position-y: -0.5vw;
+}
+
+.rating{
+    display: inline;
+    margin-top: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    aspect-ratio: ;
+    height: 2vw;
+    width: content-box;
+}
+
+/* COLOANA STANGA */
+
+.row{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.column:nth-child(1){
+    padding-top: 1.5vw;
+    flex: 50%;
+}
+
+.column:nth-child(2){
+    margin-top: -2vw;
+    flex: 50%;
+}
+
+.column img{
+    width: 97%;
+}
+
+.column iframe{
+    width: 97%;
+}
+
+.column h2{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #848484;
+    margin: 0;
+    padding: 0.6vw 0 0.6vw 0;
+}
+
+.column p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #848484;
+    margin: 0;
+    padding-bottom: 2vw;
+}
+
+/* COLOANA DREAPTA */
