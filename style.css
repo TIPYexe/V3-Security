@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1279px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1434px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 2559px) {
+    body {
+        font-size: 15px;
+    }
+}
+
 .center{
     margin: 0;
     position: relative;
@@ -44,7 +68,7 @@ nav{
     margin-top: auto;
     margin-left: 0;
     margin-bottom: auto;
-    height: 2.9em;
+    height: 3.7em;
 }
 
 .contact-main-menu{
@@ -57,7 +81,6 @@ nav{
     display: flex;
     height: 50%;
     justify-content: end;
-    /*background-color: red;*/
 }
 
 #btn-contact button:hover {
@@ -66,9 +89,9 @@ nav{
 
 #btn-contact{
     background-color: #efefef;
-    width: 12em;
+    width: 16em;
     height: 100%;
-    padding-left: 1.3em;
+    padding-left: 2em;
     margin-right: -3.5em;
     border-bottom-left-radius: 3em;
     text-decoration: none;
@@ -81,7 +104,7 @@ nav{
     margin: 0;
     border: none;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 700;
     color: #737373;
@@ -97,9 +120,12 @@ nav{
 }
 
 #btn-get-quote{
-    font-size: 1em;
+    font-size: 1.5em;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 700;
     background-color: #00bae9;
     width: 13em;
+    height: 100%;
     border: none;
     border-bottom-left-radius: 3em;
     border-bottom-right-radius: 3em;
@@ -107,8 +133,6 @@ nav{
 
 #btn-get-quote a{
     text-decoration: none;
-    font-family: "Maven Pro", sans-serif;
-    font-weight: 700;
     color: white;
 }
 
@@ -116,7 +140,7 @@ nav{
     display: inline-block;
     height: 50%;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
 }
@@ -160,7 +184,7 @@ nav{
     margin-top: auto;
     margin-right: 0;
     margin-bottom: auto;
-    height: 4.2em;
+    height: 6em;
 }
 
 /* HEADERUL GATA. NU MAI MODIFICA NIMIC DE SUS */
@@ -259,19 +283,21 @@ nav{
 
 .shorts{
     display: flex;
+    position: relative;
     margin: 1em auto;
     width: 60%;
     text-align: center;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .shorts span{
-    width: 20em;
+    width: 33.3%;
+    /*margin-left: 4em;*/
+    /*margin-right: 4em;*/
 }
 
 .shorts img{
-    height: 5.5em;
+    height: 7em;
 }
 
 .shorts h2{
@@ -282,7 +308,7 @@ nav{
     align-items: center;
     text-align: center;
     height: 3em;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 700;
     color: #25bfec;
@@ -293,7 +319,7 @@ nav{
     width: 16em;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #848484;
     display: inline-block;
 }
@@ -306,7 +332,7 @@ nav{
     display: block;
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: #848484;
     border-color: #848484;
     padding: 0.5em 1.5em 0.5em 1.5em;
@@ -320,8 +346,6 @@ nav{
 .about-us h1{
     user-select: none;
     margin: 1.2em auto 1em auto;
-    padding-left: 1em;
-    padding-right: 1em;
     width: 60%;
     text-align: center;
     border-bottom: solid;
@@ -332,11 +356,11 @@ nav{
 
 .about-us h1>span{
     font-family: "Maven Pro", sans-serif;
-    font-size: 0.8em;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 500;
     background:#fff;
-    padding-right: 0.3em;
-    padding-left: 0.3em;
+    padding-right: 1em;
+    padding-left: 1em;
     /*padding:0 10px;*/
 }
 
@@ -345,7 +369,8 @@ nav{
     margin: 0 auto;
     width: 60%;
     font-family: "Maven Pro", sans-serif;
-    font-size: 1em;
+
+    font-size: 1.2em;
     font-weight: 500;
     color: #848484;
     padding-bottom: 1em;
@@ -369,7 +394,7 @@ nav{
     background-color: #00bae9;
     border-bottom-right-radius: 5em;
     height: 4em;
-    width: 41em;
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,23 +404,52 @@ nav{
     font-family: "Maven Pro", sans-serif;
     font-weight: 500;
     font-size: 2em;
-    /*padding-right: 2.5em;*/
-    margin-left: 45%;
+    margin-left: 51%;
     color: white;
 }
 
 /* HEADER OUR CLIENTS SAY */
 
-.column .comment p{
-    font-style: italic;
-    text-align: center;
-    margin-left: 2em;
-    margin-right: 3em;
+.row{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    column-gap: 2.5%;
 }
 
-.comment-bg{
-    margin-bottom: -6.8em;
+.column:nth-child(1){
+    padding-top: 2em;
+    flex: 50%;
 }
+
+.comment-box{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.comment-box img{
+
+}
+
+.comment-box p{
+    z-index: 2;
+    position: relative;
+    margin: 0 auto;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    background-image: url("vectors/comment.png");
+    background-repeat: no-repeat;
+    /*margin-left: 2em;*/
+    /*margin-right: 3em;*/
+}
+
+/*.comment-bg{*/
+/*    margin-bottom: -6.8em;*/
+/*}*/
 
 .profile-pic{
     /*margin-left: 0;*/
@@ -434,26 +488,11 @@ nav{
     height: auto;
 }
 
-/* COLOANA STANGA */
-
-.row{
-    display: flex;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.column:nth-child(1){
-    padding-top: 2em;
-    flex: 50%;
-}
+/* ^ COLOANA STANGA ^*/
 
 .column:nth-child(2){
     margin-top: -2em;
     flex: 50%;
-}
-
-.column img{
-    width: 95%;
 }
 
 .column iframe{
